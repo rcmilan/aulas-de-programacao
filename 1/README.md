@@ -32,6 +32,8 @@ const valorConstante = "abc";
 ```javascript
 /* funções e métodos */
 
+// exemplo em javascript
+
 // funções/métodos são trechos de lógica que isolamos para que possam ser reutilizados em várias partes do programa
 
 function textoAAAA() {
