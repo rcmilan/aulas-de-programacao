@@ -1,5 +1,7 @@
 # Aula 1
 
+* Para rodar o exemplo é necessário copiar os arquivos **index.html** e **index.js** para um mesmo diretório e abrir o arquivo html em qualquer browser
+
 Exemplo para demonstrar como ler e retornar a soma de 2 valores.
 
 Ao clicar no botão "Executar!", chamamos a função "somaNumeros" que solicita ao usuário digitar 2 números e então retorna a soma dos valores.
