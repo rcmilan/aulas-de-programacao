@@ -89,6 +89,8 @@ else
 
 # Laços de Repetição
 
+- Mais exemplos no arquivo [exemplos.ipynb](https://github.com/rcmilan/aulas-de-programacao/blob/trunk/2%20-%20Condicionais%20e%20La%C3%A7os%20de%20Repeti%C3%A7%C3%A3o/exemplos.ipynb)
+
 ```javascript
 // Usamos laços de repetição para definir trechos de código que serão executados várias vezes
 
