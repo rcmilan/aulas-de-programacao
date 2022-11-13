@@ -2,8 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <script src="index.js"></script> 
-    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <div>
@@ -14,20 +14,17 @@
     <pre id="preDoResultado"></pre>
     <script>
       function boraRodarEssaP() {
-        
         // Pega o valor do input
         const textoDoinput = document.getElementById("txtNumero").value;
-
         // converte para Int
         var numero = Number.parseInt(textoDoinput);
 
-        if (numero < 0) numero = 0; // apenas para impedir do usuário digitar um número inválido
-
+        if (numero < 0) numero = 0; // IF apenas para impedir do usuário passar um número inválido
+        // chama a função
         const result = fizzBuzz(numero);
 
-        // pega a div onde vamos exibir o resultado
+        // pega a <pre> onde vamos exibir o resultado
         const preResultado = document.getElementById("preDoResultado");
-
         // adiciona o resultado na <pre>
         preResultado.innerHTML = result;
       }

@@ -62,7 +62,7 @@ function muliplica4numeros() {
   const z = x * y;
 }
 
-// JavaScript permite que funções/métodos possam ser declarados como variaveis ou constantes
+// também podemos declarar funções/métodos como se fossem variaveis ou constantes
 var multiplica2numeros = (n1, n2) => {
   return n1 * n2;
 }
@@ -73,5 +73,4 @@ const muliplica4numeros = () => {
 
   const z = x * y;
 }
-
 ```
